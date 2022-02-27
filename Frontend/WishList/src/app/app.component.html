@@ -1,0 +1,18 @@
+
+<body>
+  
+  
+  <main>
+    <h1>Product List</h1>
+    <div class="products--grid">
+      <div class="product" *ngFor="let product of products">
+        <img [src]="'./assets/images/'+product.image" alt="image">
+        <h2>${{ product.price }}</h2>
+        <p>{{ product.name }}</p>
+        <p>Stock: {{ product.stock }}</p>
+      </div>
+    </div>
+  </main>
+</body>
+
+<router-outlet></router-outlet>

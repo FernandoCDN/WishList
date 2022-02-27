@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    height: 25vh;
+    width: 100vw;
+    background-color: #005389;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10vh;
+}
+
+footer
+{
+    height: 10vh;
+    background-color: gainsboro;
+    text-align: left;
+}
+
+.logo
+{
+    height: 20vh;
+}
+
+.title
+{
+    color: white;
+    text-align: center;
+    font-size: 5vh;
+    padding-right: 10vw;
+}
+
+.user-container
+{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-container p
+{
+    color: white;
+}
+
+.logo-user
+{
+    height: 10vh;
+}
+
+.watermark
+{
+    padding-top: 40px;
+    padding-left: 20px;
+}
